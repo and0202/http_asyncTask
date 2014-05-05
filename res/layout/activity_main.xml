@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/getString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取数据" />
+
+    <Button
+        android:id="@+id/getJson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取Json数据" />
+
+    <Button
+        android:id="@+id/getImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取图片" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
